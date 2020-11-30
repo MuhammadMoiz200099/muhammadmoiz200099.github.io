@@ -408,6 +408,10 @@
 	.hero .col-md-6 h1 {
 		font-size: 28px !important;
 	}
+
+	.hero .col-md-6 .page-scroll {
+		text-align: center;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -469,6 +473,44 @@
 
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	.hero .col-md-6 h1 {
+		font-size: 24px !important;
+	}
+}
+
+@media only screen and (max-width: 377px) {
+	.hero .col-md-6 h1 {
+		font-size: 22px !important;
+	}
+}
+
+@media only screen and (max-width: 348px) {
+	.hero .col-md-6 h1 {
+		font-size: 20px !important;
+	}
+}
+
+@media only screen and (max-width: 319px) {
+	.hero .col-md-6 h1 {
+		font-size: 16px !important;
+	}
+
+	.hero .job-title {
+		font-size: 13px !important;
+	}
+}
+
+@media only screen and (max-width: 263px) {
+	.hero .col-md-6 h1 {
+		font-size: 14px !important;
+	}
+
+	.hero .job-title {
+		font-size: 11px !important;
 	}
 }
 
