@@ -6,16 +6,14 @@
  * Version: 1.0
  * */
 
+
 /* FONT
 ================================================== */
+
 @font-face {
     font-family: 'fontello';
     src: url('../fonts/fontello.eot?37927580');
-    src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'),
-        url('../fonts/fontello.woff2?37927580') format('woff2'),
-        url('../fonts/fontello.woff?37927580') format('woff'),
-        url('../fonts/fontello.ttf?37927580') format('truetype'),
-        url('../fonts/fontello.svg?37927580#fontello') format('svg');
+    src: url('../fonts/fontello.eot?37927580#iefix') format('embedded-opentype'), url('../fonts/fontello.woff2?37927580') format('woff2'), url('../fonts/fontello.woff?37927580') format('woff'), url('../fonts/fontello.ttf?37927580') format('truetype'), url('../fonts/fontello.svg?37927580#fontello') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -43,35 +41,48 @@
     content: '\f099';
 }
 
+
 /* '' */
+
 .icon-facebook:before {
     content: '\f09a';
 }
 
+
 /* '' */
+
 .icon-gplus:before {
     content: '\f0d5';
 }
 
+
 /* '' */
+
 .icon-linkedin:before {
     content: '\f0e1';
 }
 
+
 /* '' */
+
 .icon-linkedin:before {
     content: '\f0e1';
 }
 
+
 /* '' */
+
 .icon-up:before {
     content: '\f176';
 }
 
+
 /* '' */
+
 
 /* CUSTOM RESETS
 ================================================== */
+
 a {
     transition: color 0.25s ease-in-out;
     -moz-transition: color 0.25s ease-in-out;
@@ -90,7 +101,9 @@ h4 {
     font-size: 30px;
 }
 
+
 /* Buttons */
+
 .btn {
     min-width: 145px;
     line-height: 50px;
@@ -127,7 +140,9 @@ h4 {
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
 }
 
+
 /* Input fields */
+
 .form-control {
     padding-left: 10px;
     border: 0;
@@ -155,8 +170,10 @@ textarea {
     font-size: 16px;
 }
 
+
 /* LAYOUT
 ================================================== */
+
 html,
 body {
     width: 100%;
@@ -181,13 +198,17 @@ body {
     display: none;
 }
 
+
 /* Background-color */
+
 .gray-bg {
     background-color: #e1e1e1;
 }
 
+
 /* HEADER
 ================================================== */
+
 .site-header {
     position: fixed;
     top: 0;
@@ -201,7 +222,9 @@ body {
     height: 50px;
 }
 
+
 /* Navigation */
+
 .navbar-nav>li>a {
     padding: 5px 0;
     font-weight: 600;
@@ -235,8 +258,10 @@ body {
     background-color: transparent;
 }
 
+
 /* HERO
 ================================================== */
+
 .hero {
     background: url(../img/hero.jpg) no-repeat center / cover;
     height: 100%;
@@ -284,8 +309,10 @@ body {
     height: 600px;
 }
 
+
 /* SITEMAIN
 ================================================== */
+
 .site-main {
     position: relative;
     margin-bottom: 100px;
@@ -293,7 +320,9 @@ body {
     z-index: 1;
 }
 
+
 /* site-section */
+
 .site-section {
     padding-top: 120px;
 }
@@ -313,7 +342,9 @@ body {
     margin-bottom: 35px;
 }
 
+
 /* Section: Skills */
+
 .section-skills {
     padding-bottom: 120px;
 }
@@ -340,7 +371,9 @@ body {
     background-color: #212121;
 }
 
+
 /* Section: Services */
+
 .section-services {
     position: relative;
     padding-top: 220px;
@@ -386,7 +419,9 @@ body {
     margin-bottom: 0;
 }
 
+
 /* Section: Portfolio */
+
 .section-portfolio {
     padding-bottom: 120px;
 }
@@ -466,7 +501,9 @@ body {
     margin-top: 10px;
 }
 
+
 /* Modal */
+
 .modal {
     z-index: 9999;
 }
@@ -516,7 +553,9 @@ body {
     text-align: center;
 }
 
+
 /* Section: Counters */
+
 .section-counters {
     background: url(../img/counters-bg.jpg) no-repeat fixed center / cover;
     width: 100%;
@@ -547,7 +586,9 @@ body {
     line-height: 0.8;
 }
 
+
 /* Section: Form*/
+
 .section-form {
     padding-bottom: 120px;
 }
@@ -556,8 +597,10 @@ body {
     margin-top: 40px;
 }
 
+
 /* FOOTER
 ================================================== */
+
 .site-footer {
     position: fixed;
     bottom: 0;
@@ -625,4 +668,30 @@ a.icon-up-bg:hover {
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+
+/* cv */
+
+.cv_download_container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cv_download_container .cv_text {
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cv_download_container .cv_butoon_container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
