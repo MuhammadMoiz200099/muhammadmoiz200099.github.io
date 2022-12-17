@@ -417,6 +417,7 @@ body {
 .service p {
     color: #000;
     margin-bottom: 0;
+    text-align: justify;
 }
 
 
