@@ -293,14 +293,14 @@ body {
 }
 
 .hero h1 {
-    font-size: 46px;
+    font-size: 56px;
     font-weight: 700;
     margin: 0 0 15px;
     text-transform: uppercase;
 }
 
 .job-title {
-    font-size: 22px;
+    font-size: 26px;
     margin-bottom: 30px;
     line-height: 1;
 }
